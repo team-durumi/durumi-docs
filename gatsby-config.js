@@ -1,8 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: 'Doctocat Template',
-    shortName: 'Template',
-    description: 'My site description',
+    title: '팀두루미 문서',
+    shortName: 'durumi-docs',
+    description: '팀두루미에 대한 정보를 알려드립니다.',
+    imageUrl: 'https://avatars1.githubusercontent.com/u/57402612'
   },
   plugins: ['@primer/gatsby-theme-doctocat'],
 }
