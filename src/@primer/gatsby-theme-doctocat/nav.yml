@@ -1,7 +1,10 @@
-- title: Page 1
-  url: /page-1
-- title: Example
-  url: /example
+- title: 소개
+  url: /about
+- title: 프로젝트
   children:
-    - title: Page 2
-      url: /example/page-2
+    - title: 디지털 아카이브
+      url: /projects/digital-archive
+    - title: 웹서비스
+      url: /projects/webservice
+- title: 알콜 아카이브
+  url: /aa/
