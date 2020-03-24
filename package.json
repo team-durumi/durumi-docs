@@ -1,6 +1,6 @@
 {
   "name": "doctocat-template",
-  "repository": "team-durumi/docs",
+  "repository": "team-durumi/durumi-docs",
   "version": "1.0.0",
   "scripts": {
     "develop": "gatsby develop",
