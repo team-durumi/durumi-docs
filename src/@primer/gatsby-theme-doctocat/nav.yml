@@ -6,5 +6,12 @@
       url: /projects/digital-archive
     - title: 웹서비스
       url: /projects/webservice
-- title: 알콜 아카이브
+- title: 디지털아카이브 아카이브 1.0
   url: /aa/
+  children:
+  - title: 고객안내
+    url: /aa/hark
+  - title: 문서
+    url: /aa/documentation
+  - title: 자주하는 질문
+    url: /aa/faq
