@@ -47,6 +47,11 @@ $ open ~/.vagrant.d/boxes
 
 ## 3. vagrant 사용해보기
 
+사용하는 vagrant boxes 위치
+```
+$ du -sch ~/.vagrant.d/boxes
+$ open ~/.vagrant.d/boxes
+```
 
 
 ## 4. wordpress 프로젝트 띄워보기
