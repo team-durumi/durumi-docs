@@ -10,16 +10,16 @@ title: 웹서비스
 
 기존에 상담이슈를 해결하던 직장갑질119팀이 상담이라는 업무에 집중할 수 있도록 문제해결 기반의 IT 서비스 설계 및 개발을 진행했습니다. 만들어진 솔루션이 아니라 조직에 맞는 업무 시나리오와 이슈 중심으로 개발해 불필요한 과정을 생략하고 그들의 문제해결에 집중할 수 있도록 새로운 프로세스를 만들었습니다. 상담 DB시스템은 도착한 이메일을 읽어드리고, 각 상담자에게 배분되며 다시 답 메일을 전달할 수 있도록 설계되었습니다. 
 
-- dev : RoR, Docker,Postmark
+- dev : RoR, Docker, Postmark
 
 ## 환경운동연합
 
 환경운동연합이 카페24에 유지하고 있던 18개 사이트와 서버자료를 이전했습니다. 서버 이전과 함께 해당 프로젝트의 업데이트 및 주요한 소프트웨어 업데이트를 진행했습니다. 그 외에 자주 서버 공격을 받던 사이트들의 증상을 확인하고 대응했습니다. 
 
-- dev : php, Wordpress, mysql, AWS, cloudflare
-- url : kfem.or.kr 	외
+- dev : php, Wordpress, mysql, AWS, Cloudflare
+- url : http://kfem.or.kr 	/ http://cjcb.ekfem.or.kr
 
-## didkorea
+## Didkorea
 
 체인을 유통하는 소규모 기업에서 운영하는 홈페이지의 서버관리 비용이 별도로 들지 않도록, Gatsby, Netlify 도구를 사용하 스크립트 기반으로 스태틱한 홈페이지를 개발했습니다. 새로 개발한 홈페이지는 netlify를 통해 서비스되고 있으며, 서버 비용이 별도로 들어가지 않습니다.  
 
@@ -31,5 +31,44 @@ title: 웹서비스
 
 스타트업 WeRide의 소개 및 예약을 담당하는 서비스 플랫폼을 개발했습니다. 스타트업의 비지니스 모델을 운영하고 서비스모델을 확인할 수 있도록 RoR로 커스텀하게 개발했습니다. 
 
-- dev : RoR, Docker, cloudflare
+- dev : RoR, Docker, Cloudflare
 - url | https://www.werideplus.com/
+
+
+## 태화복지재단
+
+JAVA로 개발되어 있던 웹, 모바일 홈페이지의 수정, 운영유지 과정을 줄이고, 관리가 편한 [캠페이너스](campaignus.me)로 반응형 홈페이지를 이전했습니다. 툴에서 제공하는 웹페이지 빌드 기능 외에 지속적으로 수정 관리를 위한 별도의 Html, Css, Javascript 요소를 사용했으며, 6-7년간 사용하던 mysql 데이터베이스의 자료와 이미지를 캠페이너스로 기술적 이전을 했습니다.
+
+- dev : Campaignus, Cloudflare
+- url | https://taiwhafound.org/
+
+
+## 은평구노동자종합지원센터
+
+교육신청과 무료상담을 진행할 수 있는 은평구노동자종합지원센터 홈페이지를 개발했습니다. SSG(Static-Site-Generator)인 Hugo를 활용해 교육신청 및 무료상담에 작성되는 개인정보를 제외한 웹사이트 정보를 Front 영역에 구현해 가볍운 구조를 만들었습니다. 
+
+- dev : Logo, Hugo, Netlify, NetlifyCMS, DirectUS, AWS
+- url | http://eplabor.org/
+
+
+## 술자루
+
+전국 1200개 양조장에서 생산되는 2000개의 우리술 중에 전문 소믈리에가 선별한 우리술 랜덤박스를 발송해주는 술자루 구독 서비스를 개발했습니다. 초기 구독서비스를 빠르게 구축하기 위해 웹사이트 개발을 imweb을 통해 진행하고, 사용자의 카드 구독결제를 위해 Rails API 서버와 bootpay를 통해 구현했습니다. 
+
+- dev : Rails API, imweb, bootpay
+- url | https://sooljaru.com/
+
+
+## 일본군'위안부'문제연구소 웹진 '결' 영문사이트 개발
+
+웹진 <결>은 ‘위안부’ 문제에 관한 연구자의 활동을 장려하고, 국민들의 관심을 모으고, 일반 대중의 이해를 높이고자 연구소가 발행하는 웹진입니다. 2020년 Drupal로 개발된 웹진'결'의 시스템 운영유지와 함께 별도 사업으로 영문사이트 개발을 맡아 진행중입니다. 
+
+- dev : Drupal7, AWS, Cloudflare
+- url | (개발중)
+
+## Different Doors
+
+Different Doors는 이문238에서 제공하는 매일력 서비스를 앱으로 구현한 서비스입니다. 기록하는 습관을 들일 수 있는 질문과 이를 모을 수 있는 기능으로 구현되어 있습니다. 
+
+- dev : framwork7, Rails API, AWS
+- url | (개발중)
